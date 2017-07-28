@@ -1,0 +1,41 @@
+Configuring conduit-extra-1.1.16...
+Building conduit-extra-1.1.16...
+Preprocessing library conduit-extra-1.1.16...
+[ 1 of 13] Compiling Data.Conduit.Zlib ( Data/Conduit/Zlib.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Zlib.o )
+[ 2 of 13] Compiling Data.Conduit.Text ( Data/Conduit/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Text.o )
+[ 3 of 13] Compiling Data.Conduit.Network.UDP ( Data/Conduit/Network/UDP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Network/UDP.o )
+[ 4 of 13] Compiling Data.Conduit.Network ( Data/Conduit/Network.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Network.o )
+[ 5 of 13] Compiling Data.Conduit.Network.Unix ( Data/Conduit/Network/Unix.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Network/Unix.o )
+[ 6 of 13] Compiling Data.Conduit.Lazy ( Data/Conduit/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Lazy.o )
+[ 7 of 13] Compiling Data.Conduit.Foldl ( Data/Conduit/Foldl.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Foldl.o )
+[ 8 of 13] Compiling Data.Conduit.Filesystem ( Data/Conduit/Filesystem.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Filesystem.o )
+[ 9 of 13] Compiling Data.Conduit.ByteString.Builder ( Data/Conduit/ByteString/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/ByteString/Builder.o )
+[10 of 13] Compiling Data.Conduit.Blaze ( Data/Conduit/Blaze.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Blaze.o )
+[11 of 13] Compiling Data.Conduit.Binary ( Data/Conduit/Binary.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Binary.o )
+
+Data/Conduit/Binary.hs:513:28: warning: [-Wdeprecations]
+    In the use of ‘inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+
+Data/Conduit/Binary.hs:515:20: warning: [-Wdeprecations]
+    In the use of ‘inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+
+Data/Conduit/Binary.hs:566:33: warning: [-Wname-shadowing]
+    This binding for ‘bs’ shadows the existing binding
+      bound at Data/Conduit/Binary.hs:558:18
+
+Data/Conduit/Binary.hs:580:36: warning: [-Wdeprecations]
+    In the use of ‘inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[12 of 13] Compiling Data.Conduit.Process ( Data/Conduit/Process.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Process.o )
+[13 of 13] Compiling Data.Conduit.Attoparsec ( Data/Conduit/Attoparsec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Attoparsec.o )
+
+Data/Conduit/Attoparsec.hs:77:5: warning: [-Wunused-top-binds]
+    Defined but not used: ‘notEmpty’
+Installing library in
+/Users/basilahmad/.stack/snapshots/x86_64-osx/lts-8.22/8.0.2/lib/x86_64-osx-ghc-8.0.2/conduit-extra-1.1.16-9yzUBkCROdh3bKF2AOvf4T
+Registering conduit-extra-1.1.16...
